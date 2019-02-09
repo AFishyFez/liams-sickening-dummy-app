@@ -4,7 +4,8 @@
   "description": "A sickening app that has Heroku support",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,5 @@
   "homepage": "https://github.com/AFishyFez/liams-sickening-dummy-app#readme",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
 }
