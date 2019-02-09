@@ -1,0 +1,19 @@
+{
+  "name": "liams-sickening-dummy-app",
+  "version": "1.0.0",
+  "description": "A sickening app that has Heroku support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AFishyFez/liams-sickening-dummy-app.git"
+  },
+  "author": "Liam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AFishyFez/liams-sickening-dummy-app/issues"
+  },
+  "homepage": "https://github.com/AFishyFez/liams-sickening-dummy-app#readme"
+}
