@@ -19,5 +19,5 @@
   "homepage": "https://github.com/AFishyFez/liams-sickening-dummy-app#readme",
   "dependencies": {
     "express": "^4.16.4"
-  },
+  }
 }
