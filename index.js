@@ -1,17 +1,18 @@
-var express = require('express');
-var http = require('http');
-var path = require('path');
+'use strict';
 
-var app = express();
-var server = http.Server(app);
+var express = require('express'); // do not change this line
 
-app.set('port', 5000);
-app.use('/static', express.static(__dirname + '/static'));
+var server = express();
 
-app.get('/', function(request, response) {
-	response.sendFile(path.join(__dirname, 'index.html'));
+server.get('/', function(req, res) {
+	res.status(200);
+	res.set({
+		'Content-Type': 'text/html'
+	});
+
+	res.write('<!DOCTYPE html><html><body>lorem ipsum</body></html>');
+
+	res.end();
 });
 
-server.listen(5000, function() {
-	console.log('Starting server on port 5000');
-});
+server.listen(process.env.PORT || 5000);
